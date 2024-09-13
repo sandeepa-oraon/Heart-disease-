@@ -1,1 +1,6 @@
-streamlit run .\HDpredict.py
+streamlit
+streamlit-option-menu
+joblib
+scikit-learn
+pandas
+numpy
