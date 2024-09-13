@@ -29,7 +29,7 @@ if(selected== 'Heart disease prediction'):
     col1, col2= st.columns(2)
 
     with col1: 
-         age= int(st.text_input('enter your Age'))
+         age= st.text_input('enter your Age')
 
     with col2:
         cp= st.text_input('Chest Pain Type(0, 1, or 2) (cp)')
@@ -44,10 +44,10 @@ if(selected== 'Heart disease prediction'):
         exang= st.text_input('exercise induced angina(0 or 1) (exang)')
 
     with col2:
-        oldpeak= float(st.text_input('ST depression induced by exercise relative to rest (oldpeak)'))
+        oldpeak= st.text_input('ST depression induced by exercise relative to rest (0-6) (oldpeak)')
 
     with col1:
-        ca= int(st.text_input('number of major vessels colored by floursopy (ca)'))
+        ca= st.text_input('number of major vessels colored by floursopy (0-4) (ca)')
 
 #code for prediction
 hrt_disease= ''
