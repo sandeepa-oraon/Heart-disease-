@@ -16,7 +16,7 @@ dia_modal = pickle.load(open('HDModel.sav', 'rb'))
 with st.sidebar:
     selected = st.radio('E-doctor Heart disease prediction system',
                            ['Heart disease prediction'],
-                           icons= ['heart'],
+                        #    icons= ['heart'],
                            default_index=0
                            )
     
