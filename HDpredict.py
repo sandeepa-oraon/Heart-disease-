@@ -17,7 +17,7 @@ with st.sidebar:
     selected = st.radio('E-doctor Heart disease prediction system',
                            ['Heart disease prediction'],
                         #    icons= ['heart'],
-                           default_index=0
+                        #    default_index=0
                            )
     
 #disease prediction page
