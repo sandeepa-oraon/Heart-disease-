@@ -7,7 +7,7 @@ import streamlit as st
 # joblib.dump(model, 'HDModel.sav')
 #loading models
 
-dia_modal = pickle.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
+dia_modal = pickle.load(open(r'\HDModel.sav', 'rb'))
 
 # dia_modal = joblib.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
 
