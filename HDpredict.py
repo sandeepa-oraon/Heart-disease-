@@ -1,6 +1,6 @@
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 import joblib
 
 #save the model
@@ -14,7 +14,7 @@ dia_modal = joblib.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDisease
 #slider for navigation
 
 with st.sidebar:
-    selected = option_menu('E-doctor Heart disease prediction system',
+    selected = st.radio('E-doctor Heart disease prediction system',
                            ['Heart disease prediction'],
                            icons= ['heart'],
                            default_index=0
