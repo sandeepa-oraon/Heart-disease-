@@ -1,15 +1,15 @@
 import pickle
 import streamlit as st
 # from streamlit_option_menu import option_menu
-import joblib
+# import joblib
 
 #save the model
 # joblib.dump(model, 'HDModel.sav')
 #loading models
 
-# dia_modal = pickle.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
+dia_modal = pickle.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
 
-dia_modal = joblib.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
+# dia_modal = joblib.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
 
 #slider for navigation
 
