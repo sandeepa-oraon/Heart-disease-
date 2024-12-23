@@ -6,15 +6,19 @@ import joblib
 
 
 #save the model
-# joblib.dump(model, 'HDModel1.sav')
+# joblib.dump(model, 'HDModel.sav')
+
 #loading models
+dia_modal = pickle.load(open('HDModel.sav', 'rb'))
 
-dia_modal = pickle.load(open('HDModell.sav', 'rb'))
+# Load the model
+# with open('HDModel.sav', 'rb') as model_file:
+#     dia_modal = pickle.load(model_file)
 
-# dia_modal = joblib.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
+# Check the type of the loaded model
+# print(type(dia_modal))
 
 #slider for navigation
-
 with st.sidebar:
     selected = option_menu('E-doctor Heart disease prediction system',
                            ['Heart disease prediction'],
