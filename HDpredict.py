@@ -9,7 +9,8 @@ import joblib
 # joblib.dump(model, 'HDModel.sav')
 
 #loading models
-dia_modal = pickle.load(open('HDModel.sav', 'rb'))
+# dia_modal = pickle.load(open('HDModel.sav', 'rb'))
+dia_modal = joblib.load('HDModel.sav')
 
 # Load the model
 # with open('HDModel.sav', 'rb') as model_file:
