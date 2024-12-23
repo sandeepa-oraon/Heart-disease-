@@ -1,13 +1,15 @@
 import pickle
+# from pyexpat import model
 import streamlit as st
 from streamlit_option_menu import option_menu
 import joblib
 
+
 #save the model
-# joblib.dump(model, 'HDModel.sav')
+# joblib.dump(model, 'HDModel1.sav')
 #loading models
 
-dia_modal = pickle.load(open('HDModel.sav', 'rb'))
+dia_modal = pickle.load(open('HDModell.sav', 'rb'))
 
 # dia_modal = joblib.load(open(r'C:\Users\hp\Desktop\Machine Learning\HeartDiseaseModel\HDModel.sav', 'rb'))
 

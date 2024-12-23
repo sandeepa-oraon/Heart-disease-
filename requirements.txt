@@ -4,3 +4,6 @@ joblib
 scikit-learn
 pandas
 numpy
+
+
+# streamlit run .\HDpredict.py 
