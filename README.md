@@ -71,7 +71,7 @@ streamlit run HDpredict.py
 
 ├── requirements.txt     # Dependencies
 
-├── marin.ipynb          # Jupyter Notebook for training & testing
+├── main3Copy.ipynb          # Jupyter Notebook for training & testing
 
 └── README.md            # Project Documentation
 
